@@ -115,3 +115,13 @@ Before using gem5, we always run the benchmarks on the host system (your WSL/Ubu
     --cpu-type=DerivO3CPU --caches --l2cache \
     --l1d_size=32kB --l1i_size=32kB --l2_size=256kB \
     -I 50000000
+
+
+#### 5c: Stream (Run 3)
+- Ran the **stream** benchmark inside gem5 with the same configuration.
+- Result: Simulation completed successfully.
+- Key metrics (from `stats.txt`):
+  - **simInsts** ≈ 1.39M
+  - **IPC** ≈ 0.15
+  - **CPI** ≈ 6.74
+- Interpretation: Stream is **bandwidth/memory intensive**. CPU stalls frequently waiting for data, resulting in much lower IPC compared to compute and ptrchase.
