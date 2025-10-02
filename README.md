@@ -65,3 +65,21 @@ The difference between compute-bound, latency-bound, and bandwidth-bound workloa
 - Added Makefile in benchmarks folder.
 - Allows compiling all benchmarks (`compute`, `ptrchase`, `stream`) with a single `make` command.
 - Verified by running `./compute 1000` successfully.
+
+
+## Step 4: Run Benchmarks Natively (Baseline)
+
+- Ran all benchmarks on host (Ubuntu).
+- Verified that they run to completion and print results.
+- This provides a baseline runtime for comparison with gem5 simulations.
+
+Commands used : 
+- ./compute 100000000
+- ./ptrchase 100000000
+- ./stream 100000000
+
+Before using gem5, we always run the benchmarks on the host system (your WSL/Ubuntu). This gives you:
+
+- A baseline runtime.
+- Proof that the benchmarks actually work.
+- Something to compare with gem5 simulation results.
