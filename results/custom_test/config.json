@@ -813,7 +813,22 @@
                     "eventq_index": 0,
                     "int_latency": 1000,
                     "pio_latency": 100000,
-                    "system": "system"
+                    "system": "system",
+                    "int_requestor": {
+                        "role": "GEM5 REQUESTOR",
+                        "peer": "system.membus.cpu_side_ports[2]",
+                        "is_source": "True"
+                    },
+                    "int_responder": {
+                        "role": "GEM5 RESPONDER",
+                        "peer": "system.membus.mem_side_ports[2]",
+                        "is_source": "False"
+                    },
+                    "pio": {
+                        "role": "GEM5 RESPONDER",
+                        "peer": "system.membus.mem_side_ports[1]",
+                        "is_source": "False"
+                    }
                 }
             ],
             "isa": [
@@ -1052,7 +1067,7 @@
                     "errout": "cerr",
                     "euid": 100,
                     "eventq_index": 0,
-                    "executable": "",
+                    "executable": "./benchmarks/compute",
                     "gid": 100,
                     "input": "cin",
                     "kvmInSE": false,
@@ -1080,7 +1095,7 @@
                 "clk_domain": "system.clk_domain",
                 "clusivity": "mostly_incl",
                 "compressor": null,
-                "data_latency": 2,
+                "data_latency": 1,
                 "demand_mshr_reserve": 1,
                 "eventq_index": 0,
                 "is_read_only": false,
@@ -1110,11 +1125,11 @@
                     "path": "system.cpu.dcache.replacement_policy",
                     "eventq_index": 0
                 },
-                "response_latency": 2,
+                "response_latency": 1,
                 "sequential_access": false,
                 "size": 32768,
                 "system": "system",
-                "tag_latency": 2,
+                "tag_latency": 1,
                 "tags": {
                     "type": "BaseSetAssoc",
                     "cxx_class": "gem5::BaseSetAssoc",
@@ -1153,7 +1168,7 @@
                     "sequential_access": false,
                     "size": 32768,
                     "system": "system",
-                    "tag_latency": 2,
+                    "tag_latency": 1,
                     "warmup_percentage": 0
                 },
                 "tgts_per_mshr": 20,
@@ -1184,7 +1199,7 @@
                 "clk_domain": "system.clk_domain",
                 "clusivity": "mostly_incl",
                 "compressor": null,
-                "data_latency": 2,
+                "data_latency": 1,
                 "demand_mshr_reserve": 1,
                 "eventq_index": 0,
                 "is_read_only": false,
@@ -1214,11 +1229,11 @@
                     "path": "system.cpu.icache.replacement_policy",
                     "eventq_index": 0
                 },
-                "response_latency": 2,
+                "response_latency": 1,
                 "sequential_access": false,
                 "size": 32768,
                 "system": "system",
-                "tag_latency": 2,
+                "tag_latency": 1,
                 "tags": {
                     "type": "BaseSetAssoc",
                     "cxx_class": "gem5::BaseSetAssoc",
@@ -1257,7 +1272,7 @@
                     "sequential_access": false,
                     "size": 32768,
                     "system": "system",
-                    "tag_latency": 2,
+                    "tag_latency": 1,
                     "warmup_percentage": 0
                 },
                 "tgts_per_mshr": 20,
@@ -1305,12 +1320,12 @@
             "path": "system.l2bus",
             "clk_domain": "system.clk_domain",
             "eventq_index": 0,
-            "forward_latency": 0,
-            "frontend_latency": 1,
+            "forward_latency": 4,
+            "frontend_latency": 3,
             "header_latency": 1,
             "max_outstanding_snoops": 512,
             "max_routing_table_size": 512,
-            "point_of_coherency": false,
+            "point_of_coherency": true,
             "point_of_unification": true,
             "power_model": [],
             "power_state": {
@@ -1326,21 +1341,21 @@
                 "leaders": [],
                 "possible_states": []
             },
-            "response_latency": 1,
+            "response_latency": 2,
             "snoop_filter": {
                 "type": "SnoopFilter",
                 "cxx_class": "gem5::SnoopFilter",
                 "name": "snoop_filter",
                 "path": "system.l2bus.snoop_filter",
                 "eventq_index": 0,
-                "lookup_latency": 0,
+                "lookup_latency": 1,
                 "max_capacity": 8388608,
                 "system": "system"
             },
-            "snoop_response_latency": 1,
+            "snoop_response_latency": 4,
             "system": "system",
             "use_default_range": false,
-            "width": 32,
+            "width": 16,
             "cpu_side_ports": {
                 "role": "GEM5 RESPONDER",
                 "peer": [
@@ -1369,13 +1384,13 @@
             "clk_domain": "system.clk_domain",
             "clusivity": "mostly_incl",
             "compressor": null,
-            "data_latency": 20,
+            "data_latency": 8,
             "demand_mshr_reserve": 1,
             "eventq_index": 0,
             "is_read_only": false,
             "max_miss_count": 0,
             "move_contractions": true,
-            "mshrs": 20,
+            "mshrs": 16,
             "power_model": [],
             "power_state": {
                 "type": "PowerState",
@@ -1399,11 +1414,11 @@
                 "path": "system.l2cache.replacement_policy",
                 "eventq_index": 0
             },
-            "response_latency": 20,
+            "response_latency": 8,
             "sequential_access": false,
             "size": 262144,
             "system": "system",
-            "tag_latency": 20,
+            "tag_latency": 8,
             "tags": {
                 "type": "BaseSetAssoc",
                 "cxx_class": "gem5::BaseSetAssoc",
@@ -1442,7 +1457,7 @@
                 "sequential_access": false,
                 "size": 262144,
                 "system": "system",
-                "tag_latency": 20,
+                "tag_latency": 8,
                 "warmup_percentage": 0
             },
             "tgts_per_mshr": 12,
@@ -1457,7 +1472,7 @@
             },
             "mem_side": {
                 "role": "GEM5 REQUESTOR",
-                "peer": "system.membus.cpu_side_ports[1]",
+                "peer": "system.membus.cpu_side_ports[0]",
                 "is_source": "True"
             }
         },
@@ -1669,22 +1684,25 @@
             "cpu_side_ports": {
                 "role": "GEM5 RESPONDER",
                 "peer": [
+                    "system.l2cache.mem_side",
                     "system.system_port",
-                    "system.l2cache.mem_side"
+                    "system.cpu.interrupts.int_requestor"
                 ],
                 "is_source": "False"
             },
             "mem_side_ports": {
                 "role": "GEM5 REQUESTOR",
                 "peer": [
-                    "system.mem_ctrl.port"
+                    "system.mem_ctrl.port",
+                    "system.cpu.interrupts.pio",
+                    "system.cpu.interrupts.int_responder"
                 ],
                 "is_source": "True"
             }
         },
         "system_port": {
             "role": "GEM5 REQUESTOR",
-            "peer": "system.membus.cpu_side_ports[0]",
+            "peer": "system.membus.cpu_side_ports[1]",
             "is_source": "True"
         }
     }

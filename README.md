@@ -143,3 +143,26 @@ Run the parser on multiple results at once:
 ```bash
 cd scripts
 python3 parse_stats.py ../results/run1/stats.txt ../results/run2/stats.txt ../results/run3/stats.txt
+
+
+## Step 7: ## Experiment: Custom Configuration Test
+
+**Parameters:**
+- Benchmark: `compute` (input size = 100000)
+- CPU Type: DerivO3CPU
+- ROB Size: 128
+- Issue Width: 4
+- Commit Width: 4
+- Branch Predictor: TournamentBP
+- L1D Cache: 32kB
+- L1I Cache: 32kB
+- L2 Cache: 256kB
+- Max Instructions: 5M (benchmark finished early)
+
+**Results (from stats.txt):**
+- Instructions executed: 889
+- IPC: 0.179451
+- CPI: 5.572553
+- L1D miss rate: 0.28884
+- L2 miss rate: *not captured (parser needs update)*
+
