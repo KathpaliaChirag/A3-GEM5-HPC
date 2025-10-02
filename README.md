@@ -78,8 +78,24 @@ Commands used :
 - ./ptrchase 100000000
 - ./stream 100000000
 
+- Results:
+  - compute 100000000 → done 314159031.099287
+  - ptrchase 100000000 → end 30493232
+  - stream 100000000 → done 7.283180
+- Verified correctness and runtime — provides baseline for gem5 simulation.
 Before using gem5, we always run the benchmarks on the host system (your WSL/Ubuntu). This gives you:
 
 - A baseline runtime.
 - Proof that the benchmarks actually work.
 - Something to compare with gem5 simulation results.
+
+
+### Step 5: First gem5 Run
+- Ran `compute` benchmark inside gem5 using **DerivO3CPU** with L1/L2 caches.
+- Command used:
+  ```bash
+  ~/gem5/build/X86/gem5.opt ~/gem5/configs/deprecated/example/se.py \
+    -c ./benchmarks/compute -o "100000" \
+    --cpu-type=DerivO3CPU --caches --l2cache \
+    --l1d_size=32kB --l1i_size=32kB --l2_size=256kB \
+    -I 50000000

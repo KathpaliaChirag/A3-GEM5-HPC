@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -O3 -march=native
+CFLAGS = -O3 -std=c11
 
 BENCHMARKS = compute ptrchase stream
 
