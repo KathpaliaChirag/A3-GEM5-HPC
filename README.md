@@ -58,3 +58,10 @@ Unlike ptrchase (random access), this is sequential streaming access.
 Running it in gem5 lets you measure:
 How much bandwidth your memory system can sustain.
 The difference between compute-bound, latency-bound, and bandwidth-bound workloads.
+
+
+## Step 3: Makefile added for easier computation
+
+- Added Makefile in benchmarks folder.
+- Allows compiling all benchmarks (`compute`, `ptrchase`, `stream`) with a single `make` command.
+- Verified by running `./compute 1000` successfully.
