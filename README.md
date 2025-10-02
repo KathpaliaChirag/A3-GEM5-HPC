@@ -90,12 +90,28 @@ Before using gem5, we always run the benchmarks on the host system (your WSL/Ubu
 - Something to compare with gem5 simulation results.
 
 
-### Step 5: First gem5 Run
+### Step 5A: First gem5 Run
 - Ran `compute` benchmark inside gem5 using **DerivO3CPU** with L1/L2 caches.
 - Command used:
   ```bash
   ~/gem5/build/X86/gem5.opt ~/gem5/configs/deprecated/example/se.py \
     -c ./benchmarks/compute -o "100000" \
+    --cpu-type=DerivO3CPU --caches --l2cache \
+    --l1d_size=32kB --l1i_size=32kB --l2_size=256kB \
+    -I 50000000
+
+### Step 5B: Benchmark Execution in gem5
+
+- Ran the **ptrchase** benchmark inside gem5 with the following config:
+  - CPU: `DerivO3CPU`
+  - L1 Data Cache: 32kB
+  - L1 Instruction Cache: 32kB
+  - L2 Cache: 256kB
+  - Max Instructions: 50 million
+- Command used:
+  ```bash
+  ~/gem5/build/X86/gem5.opt ~/gem5/configs/deprecated/example/se.py \
+    -c ./benchmarks/ptrchase -o "100000" \
     --cpu-type=DerivO3CPU --caches --l2cache \
     --l1d_size=32kB --l1i_size=32kB --l2_size=256kB \
     -I 50000000

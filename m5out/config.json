@@ -1093,7 +1093,7 @@
                         "name": "workload",
                         "path": "system.cpu.workload",
                         "cmd": [
-                            "./benchmarks/compute",
+                            "./benchmarks/ptrchase",
                             "100000"
                         ],
                         "cwd": "/home/chira/HPC-Projects/assignment_3",
@@ -1103,7 +1103,7 @@
                         "errout": "cerr",
                         "euid": 100,
                         "eventq_index": 0,
-                        "executable": "./benchmarks/compute",
+                        "executable": "./benchmarks/ptrchase",
                         "gid": 1000,
                         "input": "cin",
                         "kvmInSE": false,
