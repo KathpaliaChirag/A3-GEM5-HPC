@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+import sys
+
+def parse_stats(stats_file):
+    data = {}
+    with open(stats_file) as f:
+        for line in f:
+            parts = line.strip().split()
+            if len(parts) >= 2:
+                key, value = parts[0], parts[1]
+                data[key] = value
+
+    # Try different possible keys for miss rates
+    l1d_candidates = [
+        "system.cpu.dcache.overall_miss_rate::total",
+        "system.cpu.dcache.overall_miss_rate::ReadReq",
+        "system.cpu.dcache.ReadReq_miss_rate::total"
+    ]
+    l2_candidates = [
+        "system.l2.overall_miss_rate::total",
+        "system.l2.overall_miss_rate::ReadReq",
+        "system.l2.ReadReq_miss_rate::total"
+    ]
+
+    l1d_miss_rate = next((data[k] for k in l1d_candidates if k in data), None)
+    l2_miss_rate = next((data[k] for k in l2_candidates if k in data), None)
+
+    # Extract IPC, CPI, inst count
+    ipc = data.get("system.cpu.ipc", None)
+    cpi = data.get("system.cpu.cpi", None)
+    simInsts = data.get("simInsts", None)
+
+    print("Results from:", stats_file)
+    print(f"  Instructions executed: {simInsts}")
+    print(f"  IPC: {ipc}")
+    print(f"  CPI: {cpi}")
+    print(f"  L1D miss rate: {l1d_miss_rate}")
+    print(f"  L2 miss rate: {l2_miss_rate}")
+    print()
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python3 parse_stats.py <stats.txt> [<stats2.txt> ...]")
+        sys.exit(1)
+    for stats_file in sys.argv[1:]:
+        parse_stats(stats_file)

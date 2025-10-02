@@ -125,3 +125,21 @@ Before using gem5, we always run the benchmarks on the host system (your WSL/Ubu
   - **IPC** ≈ 0.15
   - **CPI** ≈ 6.74
 - Interpretation: Stream is **bandwidth/memory intensive**. CPU stalls frequently waiting for data, resulting in much lower IPC compared to compute and ptrchase.
+
+## Step 6: Parsing gem5 Statistics
+
+After running each benchmark with gem5, the simulator produces a `stats.txt` file in the corresponding `results/runX/` directory.  
+These files contain thousands of statistics, so we wrote a helper script `scripts/parse_stats.py` to extract only the most relevant ones.
+
+### Extracted Metrics
+- **Instructions executed**: Total number of instructions simulated.  
+- **IPC (Instructions per Cycle)**: Higher IPC indicates better CPU utilization.  
+- **CPI (Cycles per Instruction)**: Reciprocal of IPC. Lower CPI is better.  
+- **L1D miss rate**: Fraction of data cache accesses that missed in L1.  
+- **L2 miss rate**: Fraction of L2 accesses that missed (went to main memory).
+
+### Usage
+Run the parser on multiple results at once:
+```bash
+cd scripts
+python3 parse_stats.py ../results/run1/stats.txt ../results/run2/stats.txt ../results/run3/stats.txt
