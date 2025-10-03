@@ -1,0 +1,1536 @@
+
+=== Running: compute_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: compute_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/compute_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/compute --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] compute_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: stream_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/stream_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/stream --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] stream_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=64 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob64_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=BiModeBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpBiModeBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=LocalBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpLocalBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=TournamentBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpTournamentBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d32kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d32kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d32kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=32kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d32kB_l2512kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d64kB_l2256kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=256kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d64kB_l2256kB_iw4_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=2 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d64kB_l2512kB_iw2_cw4 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=2 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw2 -> stats.txt written
+
+=== Running: ptrchase_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 ===
+/home/chira/gem5/build/X86/gem5.opt --outdir=results/experiments/ptrchase_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 configs/run_custom.py --cmd=./benchmarks/ptrchase --options="--options=100000" --cpu-type=DerivO3CPU --rob-size=128 --bp-type=GShareBP --l1d-size=64kB --l1i-size=32kB --l2-size=512kB --issue-width=4 --commit-width=4 --max-insts=5000000
+[SUCCESS] ptrchase_rob128_bpGShareBP_l1d64kB_l2512kB_iw4_cw4 -> stats.txt written
