@@ -34,6 +34,12 @@ parser.add_argument("--l2-assoc", type=int, default=8,
 parser.add_argument("--bp-type", type=str, default="TournamentBP",
                     choices=["LocalBP", "BiModeBP", "TournamentBP", "LTAGE"],
                     help="Branch predictor type (default: TournamentBP)")
+parser.add_argument("--prefetcher", type=str, default="none",
+                    choices=["none", "stride", "tagged"],
+                    help="Prefetcher: none|stride|tagged (default: none)")
+parser.add_argument("--memdep", type=str, default="none",
+                    choices=["none", "simple", "storeset"],
+                    help="Memory-dependence predictor: none|simple|storeset (default: none)")
 parser.add_argument("--max-insts", type=int, default=1000000,
                     help="Maximum number of instructions to simulate (default: 1000000)")
 parser.add_argument("--cpu-clock", type=str, default="1GHz",
@@ -66,7 +72,7 @@ system.cpu.wbWidth = args.commit_width
 system.cpu.commitWidth = args.commit_width
 system.cpu.squashWidth = args.commit_width
 
-# Set max instructions
+# Max instructions
 system.cpu.max_insts_any_thread = args.max_insts
 
 # Branch predictor
@@ -78,6 +84,13 @@ elif args.bp_type == "TournamentBP":
     system.cpu.branchPred = TournamentBP()
 elif args.bp_type == "LTAGE":
     system.cpu.branchPred = LTAGE()
+
+# Memory-dependence predictor
+if args.memdep == "simple":
+    system.cpu.memDepPred = SimpleMemDepPred()
+elif args.memdep == "storeset":
+    system.cpu.memDepPred = StoreSet()
+# else none → leave disabled
 
 # L1 Instruction Cache
 system.cpu.icache = Cache()
@@ -108,6 +121,17 @@ system.l2cache.data_latency = 20
 system.l2cache.response_latency = 20
 system.l2cache.mshrs = 20
 system.l2cache.tgts_per_mshr = 12
+
+# Attach prefetchers if requested
+if args.prefetcher == "stride":
+    system.cpu.icache.prefetcher = StridePrefetcher()
+    system.cpu.dcache.prefetcher = StridePrefetcher()
+    system.l2cache.prefetcher = StridePrefetcher()
+elif args.prefetcher == "tagged":
+    system.cpu.icache.prefetcher = TaggedPrefetcher()
+    system.cpu.dcache.prefetcher = TaggedPrefetcher()
+    system.l2cache.prefetcher = TaggedPrefetcher()
+# else none → no prefetcher attached
 
 # Buses
 system.l2bus = L2XBar()
@@ -140,10 +164,8 @@ system.mem_ctrl.port = system.membus.mem_side_ports
 # System port
 system.system_port = system.membus.cpu_side_ports
 
-# Set the SE workload for X86
+# Workload
 system.workload = SEWorkload.init_compatible(args.cmd)
-
-# Process / workload
 process = Process()
 process.cmd = [args.cmd] + (args.options.split() if args.options else [])
 system.cpu.workload = process
@@ -164,10 +186,11 @@ print(f"    - ROB Size: {args.rob_size}")
 print(f"    - Issue Width: {args.issue_width}")
 print(f"    - Commit Width: {args.commit_width}")
 print(f"    - Branch Predictor: {args.bp_type}")
+print(f"    - MemDep Predictor: {args.memdep}")
 print(f"  Cache Configuration:")
-print(f"    - L1 ICache: {args.l1i_size} (assoc: {args.l1i_assoc})")
-print(f"    - L1 DCache: {args.l1d_size} (assoc: {args.l1d_assoc})")
-print(f"    - L2 Cache: {args.l2_size} (assoc: {args.l2_assoc})")
+print(f"    - L1 ICache: {args.l1i_size} (assoc: {args.l1i_assoc}) pf: {args.prefetcher}")
+print(f"    - L1 DCache: {args.l1d_size} (assoc: {args.l1d_assoc}) pf: {args.prefetcher}")
+print(f"    - L2 Cache: {args.l2_size} (assoc: {args.l2_assoc}) pf: {args.prefetcher}")
 print(f"  Memory: {args.mem_size}")
 print(f"  Max Instructions: {args.max_insts}")
 print("=" * 80)
@@ -176,6 +199,6 @@ print("=" * 80)
 exit_event = m5.simulate()
 
 print("=" * 80)
-print(f"Simulation complete!")
+print("Simulation complete!")
 print(f"Exiting @ tick {m5.curTick()} because {exit_event.getCause()}")
 print("=" * 80)

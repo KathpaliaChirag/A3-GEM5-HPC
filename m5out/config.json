@@ -165,11 +165,11 @@
             "commitToFetchDelay": 1,
             "commitToIEWDelay": 1,
             "commitToRenameDelay": 1,
-            "commitWidth": 4,
+            "commitWidth": 2,
             "cpu_id": -1,
             "decodeToFetchDelay": 1,
             "decodeToRenameDelay": 1,
-            "decodeWidth": 8,
+            "decodeWidth": 2,
             "decoder": [
                 {
                     "type": "X86Decoder",
@@ -188,7 +188,7 @@
             "fetchQueueSize": 32,
             "fetchToDecodeDelay": 1,
             "fetchTrapLatency": 1,
-            "fetchWidth": 8,
+            "fetchWidth": 2,
             "forwardComSize": 5,
             "fuPool": {
                 "type": "FUPool",
@@ -813,7 +813,22 @@
                     "eventq_index": 0,
                     "int_latency": 1000,
                     "pio_latency": 100000,
-                    "system": "system"
+                    "system": "system",
+                    "int_requestor": {
+                        "role": "GEM5 REQUESTOR",
+                        "peer": "system.membus.cpu_side_ports[1]",
+                        "is_source": "True"
+                    },
+                    "int_responder": {
+                        "role": "GEM5 RESPONDER",
+                        "peer": "system.membus.mem_side_ports[1]",
+                        "is_source": "False"
+                    },
+                    "pio": {
+                        "role": "GEM5 RESPONDER",
+                        "peer": "system.membus.mem_side_ports[0]",
+                        "is_source": "False"
+                    }
                 }
             ],
             "isa": [
@@ -886,9 +901,9 @@
                 }
             ],
             "issueToExecuteDelay": 1,
-            "issueWidth": 4,
+            "issueWidth": 2,
             "max_insts_all_threads": 0,
-            "max_insts_any_thread": 0,
+            "max_insts_any_thread": 10000,
             "mmu": {
                 "type": "X86MMU",
                 "cxx_class": "gem5::X86ISA::MMU",
@@ -1002,7 +1017,7 @@
             "renameToFetchDelay": 1,
             "renameToIEWDelay": 2,
             "renameToROBDelay": 1,
-            "renameWidth": 8,
+            "renameWidth": 2,
             "simpoint_start_insts": [],
             "smtCommitPolicy": "RoundRobin",
             "smtFetchPolicy": "RoundRobin",
@@ -1014,7 +1029,7 @@
             "smtROBPolicy": "Partitioned",
             "smtROBThreshold": 100,
             "socket_id": 0,
-            "squashWidth": 8,
+            "squashWidth": 2,
             "store_set_clear_period": 250000,
             "switched_out": false,
             "syscallRetryLatency": 10000,
@@ -1034,7 +1049,7 @@
                 "eventq_index": 0
             },
             "trapLatency": 13,
-            "wbWidth": 8,
+            "wbWidth": 2,
             "workload": [
                 {
                     "type": "Process",
@@ -1042,8 +1057,8 @@
                     "name": "workload",
                     "path": "system.cpu.workload",
                     "cmd": [
-                        "./benchmarks/compute",
-                        "100000"
+                        "/bin/ls",
+                        "--la"
                     ],
                     "cwd": "/home/chira/HPC-Projects/assignment_3",
                     "drivers": [],
@@ -1457,7 +1472,7 @@
             },
             "mem_side": {
                 "role": "GEM5 REQUESTOR",
-                "peer": "system.membus.cpu_side_ports[1]",
+                "peer": "system.membus.cpu_side_ports[0]",
                 "is_source": "True"
             }
         },
@@ -1619,7 +1634,7 @@
             "write_low_thresh_perc": 50,
             "port": {
                 "role": "GEM5 RESPONDER",
-                "peer": "system.membus.mem_side_ports[0]",
+                "peer": "system.membus.mem_side_ports[2]",
                 "is_source": "False"
             }
         },
@@ -1669,14 +1684,17 @@
             "cpu_side_ports": {
                 "role": "GEM5 RESPONDER",
                 "peer": [
-                    "system.system_port",
-                    "system.l2cache.mem_side"
+                    "system.l2cache.mem_side",
+                    "system.cpu.interrupts.int_requestor",
+                    "system.system_port"
                 ],
                 "is_source": "False"
             },
             "mem_side_ports": {
                 "role": "GEM5 REQUESTOR",
                 "peer": [
+                    "system.cpu.interrupts.pio",
+                    "system.cpu.interrupts.int_responder",
                     "system.mem_ctrl.port"
                 ],
                 "is_source": "True"
@@ -1684,7 +1702,7 @@
         },
         "system_port": {
             "role": "GEM5 REQUESTOR",
-            "peer": "system.membus.cpu_side_ports[0]",
+            "peer": "system.membus.cpu_side_ports[2]",
             "is_source": "True"
         }
     }
