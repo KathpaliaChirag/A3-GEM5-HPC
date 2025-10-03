@@ -36,10 +36,10 @@ parser.add_argument("--bp-type", type=str, default="TournamentBP",
                     help="Branch predictor type (default: TournamentBP)")
 parser.add_argument("--prefetcher", type=str, default="none",
                     choices=["none", "stride", "tagged"],
-                    help="Prefetcher: none|stride|tagged (default: none)")
+                    help="Prefetcher type (default: none)")
 parser.add_argument("--memdep", type=str, default="none",
                     choices=["none", "simple", "storeset"],
-                    help="Memory-dependence predictor: none|simple|storeset (default: none)")
+                    help="Memory dependence predictor type (default: none)")
 parser.add_argument("--max-insts", type=int, default=1000000,
                     help="Maximum number of instructions to simulate (default: 1000000)")
 parser.add_argument("--cpu-clock", type=str, default="1GHz",
@@ -72,7 +72,7 @@ system.cpu.wbWidth = args.commit_width
 system.cpu.commitWidth = args.commit_width
 system.cpu.squashWidth = args.commit_width
 
-# Max instructions
+# Set max instructions
 system.cpu.max_insts_any_thread = args.max_insts
 
 # Branch predictor
@@ -85,83 +85,81 @@ elif args.bp_type == "TournamentBP":
 elif args.bp_type == "LTAGE":
     system.cpu.branchPred = LTAGE()
 
-# Memory-dependence predictor
-if args.memdep == "simple":
-    system.cpu.memDepPred = SimpleMemDepPred()
-elif args.memdep == "storeset":
-    system.cpu.memDepPred = StoreSet()
-# else none → leave disabled
+# ----------------------------
+# Helper functions for extras
+# ----------------------------
+def make_prefetcher(pf_type):
+    if pf_type == "none":
+        return None
+    elif pf_type == "stride":
+        return StridePrefetcher()
+    elif pf_type == "tagged":
+        return TaggedPrefetcher()
+    else:
+        raise ValueError(f"Unknown prefetcher: {pf_type}")
 
-# L1 Instruction Cache
-system.cpu.icache = Cache()
-system.cpu.icache.size = args.l1i_size
-system.cpu.icache.assoc = args.l1i_assoc
-system.cpu.icache.tag_latency = 2
-system.cpu.icache.data_latency = 2
-system.cpu.icache.response_latency = 2
-system.cpu.icache.mshrs = 4
-system.cpu.icache.tgts_per_mshr = 20
+def make_memdep(md_type):
+    if md_type == "none":
+        return None
+    elif md_type == "simple":
+        return SimpleMemDepPred()
+    elif md_type == "storeset":
+        return StoreSet()
+    else:
+        raise ValueError(f"Unknown memdep predictor: {md_type}")
 
-# L1 Data Cache
-system.cpu.dcache = Cache()
-system.cpu.dcache.size = args.l1d_size
-system.cpu.dcache.assoc = args.l1d_assoc
-system.cpu.dcache.tag_latency = 2
-system.cpu.dcache.data_latency = 2
-system.cpu.dcache.response_latency = 2
-system.cpu.dcache.mshrs = 4
-system.cpu.dcache.tgts_per_mshr = 20
+# ----------------------------
+# Caches
+# ----------------------------
+system.cpu.icache = Cache(size=args.l1i_size, assoc=args.l1i_assoc,
+                          tag_latency=2, data_latency=2, response_latency=2,
+                          mshrs=4, tgts_per_mshr=20)
 
-# L2 Cache
-system.l2cache = Cache()
-system.l2cache.size = args.l2_size
-system.l2cache.assoc = args.l2_assoc
-system.l2cache.tag_latency = 20
-system.l2cache.data_latency = 20
-system.l2cache.response_latency = 20
-system.l2cache.mshrs = 20
-system.l2cache.tgts_per_mshr = 12
+system.cpu.dcache = Cache(size=args.l1d_size, assoc=args.l1d_assoc,
+                          tag_latency=2, data_latency=2, response_latency=2,
+                          mshrs=4, tgts_per_mshr=20)
 
-# Attach prefetchers if requested
-if args.prefetcher == "stride":
-    system.cpu.icache.prefetcher = StridePrefetcher()
-    system.cpu.dcache.prefetcher = StridePrefetcher()
-    system.l2cache.prefetcher = StridePrefetcher()
-elif args.prefetcher == "tagged":
-    system.cpu.icache.prefetcher = TaggedPrefetcher()
-    system.cpu.dcache.prefetcher = TaggedPrefetcher()
-    system.l2cache.prefetcher = TaggedPrefetcher()
-# else none → no prefetcher attached
+system.l2cache = Cache(size=args.l2_size, assoc=args.l2_assoc,
+                       tag_latency=20, data_latency=20, response_latency=20,
+                       mshrs=20, tgts_per_mshr=12)
 
+# Prefetcher
+pf = make_prefetcher(args.prefetcher)
+if pf:
+    system.cpu.icache.prefetcher = pf
+    system.cpu.dcache.prefetcher = pf
+    system.l2cache.prefetcher = pf
+
+# MemDep predictor
+md = make_memdep(args.memdep)
+if md:
+    system.cpu.memDepPred = md
+
+# ----------------------------
 # Buses
+# ----------------------------
 system.l2bus = L2XBar()
 system.membus = SystemXBar()
 
-# Connect L1 caches to CPU
 system.cpu.icache.cpu_side = system.cpu.icache_port
 system.cpu.dcache.cpu_side = system.cpu.dcache_port
-
-# Connect L1 caches to L2 bus
 system.cpu.icache.mem_side = system.l2bus.cpu_side_ports
 system.cpu.dcache.mem_side = system.l2bus.cpu_side_ports
-
-# Connect L2 cache
 system.l2cache.cpu_side = system.l2bus.mem_side_ports
 system.l2cache.mem_side = system.membus.cpu_side_ports
 
-# Interrupt controller
+# Interrupts
 system.cpu.createInterruptController()
 system.cpu.interrupts[0].pio = system.membus.mem_side_ports
 system.cpu.interrupts[0].int_requestor = system.membus.cpu_side_ports
 system.cpu.interrupts[0].int_responder = system.membus.mem_side_ports
 
-# Memory controller
+# Memory
 system.mem_ctrl = MemCtrl()
 system.mem_ctrl.dram = DDR3_1600_8x8()
 system.mem_ctrl.dram.range = system.mem_ranges[0]
 system.mem_ctrl.port = system.membus.mem_side_ports
 
-# System port
 system.system_port = system.membus.cpu_side_ports
 
 # Workload
@@ -173,8 +171,6 @@ system.cpu.createThreads()
 
 # Root
 root = Root(full_system=False, system=system)
-
-# Instantiate
 m5.instantiate()
 
 print("=" * 80)
@@ -195,10 +191,10 @@ print(f"  Memory: {args.mem_size}")
 print(f"  Max Instructions: {args.max_insts}")
 print("=" * 80)
 
-# Run simulation
+# Run
 exit_event = m5.simulate()
 
 print("=" * 80)
-print("Simulation complete!")
+print(f"Simulation complete!")
 print(f"Exiting @ tick {m5.curTick()} because {exit_event.getCause()}")
 print("=" * 80)
