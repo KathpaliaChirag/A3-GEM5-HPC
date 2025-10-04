@@ -1,0 +1,16 @@
+Full study finished.
+Input rows: 4415
+Valid (status==ok) rows: 4415
+Output directory: analysis/plots_full_study_v2
+Check analysis/plots_full_study_v2/diagnostics.txt for any skipped plots reasons.
+
+Generated:
+- ROB vs IPC (per benchmark)
+- IssueWidth vs IPC (global + per-benchmark)
+- Prefetcher × BP interaction (faceted)
+- MemDep on/off vs IPC
+- Associativity/L2 size vs hit rate
+- IPC vs L1D miss rate scatter and Pareto-like scatter
+- Correlation heatmap, parallel coords (if data present)
+
+Annotations: numeric values on bars and points; vivid palette.

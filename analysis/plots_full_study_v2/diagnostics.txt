@@ -1,0 +1,35 @@
+Loaded 4415 rows, 4415 rows with status==ok
+Converted L1D_miss_rate fraction -> percent
+Converted L2_miss_rate fraction -> percent
+Parsed experiment tokens: prefetcher, replacement, assoc, l1d/l2, memdep
+Saved: analysis/plots_full_study_v2/rob_vs_ipc_compute.png
+Saved: analysis/plots_full_study_v2/rob_vs_ipc_ptrchase.png
+Saved: analysis/plots_full_study_v2/rob_vs_ipc_stream.png
+Saved: analysis/plots_full_study_v2/issuewidth_vs_ipc_commitwidth.png
+Saved: analysis/plots_full_study_v2/issuewidth_vs_ipc_compute.png
+Saved: analysis/plots_full_study_v2/issuewidth_vs_ipc_ptrchase.png
+Saved: analysis/plots_full_study_v2/issuewidth_vs_ipc_stream.png
+Skipping Prefetcher × BP: missing or constant prefetcher/IPC
+Saved: memdep vs ipc
+Saved: analysis/plots_full_study_v2/assoc_vs_l1d_hitrate.png
+Saved: analysis/plots_full_study_v2/l2size_vs_l2_hitrate.png
+Saved: analysis/plots_full_study_v2/ipc_vs_l1d_missrate_scatter.png
+Saved: analysis/plots_full_study_v2/pareto_ipc_miss_rob.png
+Saved: analysis/plots_full_study_v2/parameter_correlation_heatmap.png
+Saved: analysis/plots_full_study_v2/parallel_coordinates_designspace.png
+Full study finished.
+Input rows: 4415
+Valid (status==ok) rows: 4415
+Output directory: analysis/plots_full_study_v2
+Check analysis/plots_full_study_v2/diagnostics.txt for any skipped plots reasons.
+
+Generated:
+- ROB vs IPC (per benchmark)
+- IssueWidth vs IPC (global + per-benchmark)
+- Prefetcher × BP interaction (faceted)
+- MemDep on/off vs IPC
+- Associativity/L2 size vs hit rate
+- IPC vs L1D miss rate scatter and Pareto-like scatter
+- Correlation heatmap, parallel coords (if data present)
+
+Annotations: numeric values on bars and points; vivid palette.

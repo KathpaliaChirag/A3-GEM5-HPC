@@ -1,0 +1,33 @@
+✅ Loaded 4415 successful runs
+🔍 Parsed experiment strings for cache sizes, prefetcher, replacement
+Saved: analysis/plots_advanced/bp_rob_ipc_compute.png
+Saved: analysis/plots_advanced/bp_rob_ipc_ptrchase.png
+Saved: analysis/plots_advanced/bp_rob_ipc_stream.png
+Saved: analysis/plots_advanced/bp_issuewidth_ipc.png
+✅ Branch predictor comparison plots complete
+Saved: analysis/plots_advanced/bp_speedup_heatmap.png
+Saved: analysis/plots_advanced/corr_heatmap.png
+Saved: analysis/plots_advanced/ipc_vs_l1d_missrate.png
+Saved: analysis/plots_advanced/speedup_vs_rob.png
+Saved: analysis/plots_advanced/speedup_vs_issuewidth.png
+✅ Loaded 4415 successful runs
+🔍 Parsed experiment strings for cache sizes, prefetcher, replacement
+Saved: analysis/plots_advanced/bp_rob_ipc_compute.png
+Saved: analysis/plots_advanced/bp_rob_ipc_ptrchase.png
+Saved: analysis/plots_advanced/bp_rob_ipc_stream.png
+Saved: analysis/plots_advanced/bp_issuewidth_ipc.png
+✅ Branch predictor comparison plots complete
+Saved: analysis/plots_advanced/bp_speedup_heatmap.png
+Saved: analysis/plots_advanced/corr_heatmap.png
+Saved: analysis/plots_advanced/ipc_vs_l1d_missrate.png
+Saved: analysis/plots_advanced/speedup_vs_rob.png
+Saved: analysis/plots_advanced/speedup_vs_issuewidth.png
+Saved: analysis/plots_advanced/parallel_coords_designspace.png
+✅ Advanced analysis complete.
+Plots directory: analysis/plots_advanced
+Derived metrics: MPKI_L1D, HitRate_L1D/L2, Speedup_vs_Min, Speedup_vs_NoneBP
+Branch predictors compared: 4
+Prefetchers: 1
+Benchmarks: 3
+
+Open PNGs in analysis/plots_advanced/ for detailed plots.

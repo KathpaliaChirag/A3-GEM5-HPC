@@ -1,0 +1,12 @@
+✅ Full analysis completed.
+Saved ~20 large plots to: analysis/plots_full_study
+
+Highlights:
+- Scaling: ROB, IssueWidth, CommitWidth
+- Branch & Prefetcher interactions
+- Cache associativity and size vs hit rate
+- Memory predictor & performance coupling
+- Correlation & Pareto insights
+
+Figures are 10x7 inches for clarity.
+Check analysis/plots_full_study/diagnostics.txt for log of skipped/missing sections.

@@ -1,0 +1,1057 @@
+
+Results from: results/experiments/compute_rob128_bpBiModeBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob128_bpBiModeBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob128_bpBiModeBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob128_bpBiModeBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob128_bpLocalBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob128_bpLocalBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob128_bpLocalBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob128_bpLocalBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178801
+  CPI: 5.592801
+  L1D miss rate: 0.259259
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 891.0
+  IPC: 0.178164
+  CPI: 5.612795
+  L1D miss rate: 0.264637
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 922.0
+  IPC: 0.184363
+  CPI: 5.424078
+  L1D miss rate: 0.247444
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 922.0
+  IPC: 0.185737
+  CPI: 5.383948
+  L1D miss rate: 0.255814
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178801
+  CPI: 5.592801
+  L1D miss rate: 0.259259
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 891.0
+  IPC: 0.178164
+  CPI: 5.612795
+  L1D miss rate: 0.264637
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 922.0
+  IPC: 0.184363
+  CPI: 5.424078
+  L1D miss rate: 0.247444
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 922.0
+  IPC: 0.185737
+  CPI: 5.383948
+  L1D miss rate: 0.255814
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpTournamentBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob128_bpTournamentBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob128_bpTournamentBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob128_bpTournamentBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.172434
+  CPI: 5.799304
+  L1D miss rate: 0.29803
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.172815
+  CPI: 5.786543
+  L1D miss rate: 0.29803
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178801
+  CPI: 5.592801
+  L1D miss rate: 0.28821
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.179451
+  CPI: 5.572553
+  L1D miss rate: 0.28884
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.172434
+  CPI: 5.799304
+  L1D miss rate: 0.29803
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.172815
+  CPI: 5.786543
+  L1D miss rate: 0.29803
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178801
+  CPI: 5.592801
+  L1D miss rate: 0.28821
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.179451
+  CPI: 5.572553
+  L1D miss rate: 0.28884
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob192_bpBiModeBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob192_bpBiModeBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob192_bpBiModeBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob192_bpBiModeBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob192_bpLocalBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob192_bpLocalBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob192_bpLocalBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob192_bpLocalBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob192_bpTournamentBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob192_bpTournamentBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob192_bpTournamentBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob192_bpTournamentBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob64_bpBiModeBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob64_bpBiModeBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob64_bpBiModeBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob64_bpBiModeBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob64_bpLocalBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob64_bpLocalBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob64_bpLocalBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob64_bpLocalBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 871.0
+  IPC: 0.174165
+  CPI: 5.741676
+  L1D miss rate: 0.230769
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 874.0
+  IPC: 0.174765
+  CPI: 5.721968
+  L1D miss rate: 0.231362
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 905.0
+  IPC: 0.181254
+  CPI: 5.517127
+  L1D miss rate: 0.195991
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 905.0
+  IPC: 0.182828
+  CPI: 5.469613
+  L1D miss rate: 0.197279
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 871.0
+  IPC: 0.174165
+  CPI: 5.741676
+  L1D miss rate: 0.230769
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 874.0
+  IPC: 0.174765
+  CPI: 5.721968
+  L1D miss rate: 0.231362
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 905.0
+  IPC: 0.181254
+  CPI: 5.517127
+  L1D miss rate: 0.195991
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 905.0
+  IPC: 0.182828
+  CPI: 5.469613
+  L1D miss rate: 0.197279
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpTournamentBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob64_bpTournamentBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob64_bpTournamentBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob64_bpTournamentBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.172504
+  CPI: 5.796984
+  L1D miss rate: 0.236074
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.1724
+  CPI: 5.800464
+  L1D miss rate: 0.236074
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178263
+  CPI: 5.609674
+  L1D miss rate: 0.229545
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178801
+  CPI: 5.592801
+  L1D miss rate: 0.225
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.172504
+  CPI: 5.796984
+  L1D miss rate: 0.236074
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.1724
+  CPI: 5.800464
+  L1D miss rate: 0.236074
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178263
+  CPI: 5.609674
+  L1D miss rate: 0.229545
+  L2 miss rate: 1.0
+
+Results from: results/experiments/compute_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178801
+  CPI: 5.592801
+  L1D miss rate: 0.225
+  L2 miss rate: 1.0
+
+Results from: results/experiments/ptrchase_rob128_bpBiModeBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob128_bpBiModeBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob128_bpBiModeBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob128_bpBiModeBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob128_bpLocalBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob128_bpLocalBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob128_bpLocalBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob128_bpLocalBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob128_bpTournamentBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob128_bpTournamentBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob128_bpTournamentBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob128_bpTournamentBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob192_bpBiModeBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob192_bpBiModeBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob192_bpBiModeBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob192_bpBiModeBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob192_bpLocalBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob192_bpLocalBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob192_bpLocalBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob192_bpLocalBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob192_bpTournamentBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob192_bpTournamentBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob192_bpTournamentBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob192_bpTournamentBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob64_bpBiModeBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob64_bpBiModeBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob64_bpBiModeBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob64_bpBiModeBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob64_bpLocalBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob64_bpLocalBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob64_bpLocalBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob64_bpLocalBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob64_bpTournamentBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob64_bpTournamentBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob64_bpTournamentBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/ptrchase_rob64_bpTournamentBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178801
+  CPI: 5.592801
+  L1D miss rate: 0.259259
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 891.0
+  IPC: 0.178164
+  CPI: 5.612795
+  L1D miss rate: 0.264637
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 922.0
+  IPC: 0.184363
+  CPI: 5.424078
+  L1D miss rate: 0.247444
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpLocalBP_l1d32kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 922.0
+  IPC: 0.185737
+  CPI: 5.383948
+  L1D miss rate: 0.255814
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178801
+  CPI: 5.592801
+  L1D miss rate: 0.259259
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 891.0
+  IPC: 0.178164
+  CPI: 5.612795
+  L1D miss rate: 0.264637
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 922.0
+  IPC: 0.184363
+  CPI: 5.424078
+  L1D miss rate: 0.247444
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpLocalBP_l1d64kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 922.0
+  IPC: 0.185737
+  CPI: 5.383948
+  L1D miss rate: 0.255814
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpTournamentBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob128_bpTournamentBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob128_bpTournamentBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.172434
+  CPI: 5.799304
+  L1D miss rate: 0.29803
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.172815
+  CPI: 5.786543
+  L1D miss rate: 0.29803
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178801
+  CPI: 5.592801
+  L1D miss rate: 0.28821
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.179451
+  CPI: 5.572553
+  L1D miss rate: 0.28884
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.172434
+  CPI: 5.799304
+  L1D miss rate: 0.29803
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.172815
+  CPI: 5.786543
+  L1D miss rate: 0.29803
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178801
+  CPI: 5.592801
+  L1D miss rate: 0.28821
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob128_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.179451
+  CPI: 5.572553
+  L1D miss rate: 0.28884
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpBiModeBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob64_bpBiModeBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob64_bpBiModeBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob64_bpBiModeBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob64_bpLocalBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob64_bpLocalBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob64_bpLocalBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob64_bpLocalBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 871.0
+  IPC: 0.174165
+  CPI: 5.741676
+  L1D miss rate: 0.230769
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 874.0
+  IPC: 0.174765
+  CPI: 5.721968
+  L1D miss rate: 0.231362
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 905.0
+  IPC: 0.181254
+  CPI: 5.517127
+  L1D miss rate: 0.195991
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpLocalBP_l1d32kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 905.0
+  IPC: 0.182828
+  CPI: 5.469613
+  L1D miss rate: 0.197279
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 871.0
+  IPC: 0.174165
+  CPI: 5.741676
+  L1D miss rate: 0.230769
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 874.0
+  IPC: 0.174765
+  CPI: 5.721968
+  L1D miss rate: 0.231362
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 905.0
+  IPC: 0.181254
+  CPI: 5.517127
+  L1D miss rate: 0.195991
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpLocalBP_l1d64kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 905.0
+  IPC: 0.182828
+  CPI: 5.469613
+  L1D miss rate: 0.197279
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpTournamentBP_l132kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob64_bpTournamentBP_l132kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob64_bpTournamentBP_l164kB_l2256kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob64_bpTournamentBP_l164kB_l2512kB/stats.txt
+  Instructions executed: None
+  IPC: None
+  CPI: None
+  L1D miss rate: None
+  L2 miss rate: None
+
+Results from: results/experiments/stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.172504
+  CPI: 5.796984
+  L1D miss rate: 0.236074
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.1724
+  CPI: 5.800464
+  L1D miss rate: 0.236074
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178263
+  CPI: 5.609674
+  L1D miss rate: 0.229545
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpTournamentBP_l1d32kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178801
+  CPI: 5.592801
+  L1D miss rate: 0.225
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw2/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.172504
+  CPI: 5.796984
+  L1D miss rate: 0.236074
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw2_cw4/stats.txt
+  Instructions executed: 862.0
+  IPC: 0.1724
+  CPI: 5.800464
+  L1D miss rate: 0.236074
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw2/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178263
+  CPI: 5.609674
+  L1D miss rate: 0.229545
+  L2 miss rate: 1.0
+
+Results from: results/experiments/stream_rob64_bpTournamentBP_l1d64kB_l2256kB_iw4_cw4/stats.txt
+  Instructions executed: 889.0
+  IPC: 0.178801
+  CPI: 5.592801
+  L1D miss rate: 0.225
+  L2 miss rate: 1.0

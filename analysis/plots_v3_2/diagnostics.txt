@@ -1,0 +1,5 @@
+✅ Loaded 4415 ok runs
+✅ Loaded 4415 ok runs
+✅ Loaded 4415 ok runs
+Saved: analysis/plots_v3_2/issuewidth_vs_ipc_fixed.png
+✅ v3.2 plots generated successfully (scatter bug fixed).

@@ -1,0 +1,33 @@
+Loaded 4415 rows; 4415 rows with status == ok
+Converted L1D_miss_rate fraction -> percent
+Converted L2_miss_rate fraction -> percent
+Parsed experiment tokens: prefetcher, replacement, assoc, l1d/l2, memdep
+Saved: analysis/plots_v3/rob_ipc_global_line.png
+Saved: analysis/plots_v3/rob_ipc_global_bar.png
+Saved: analysis/plots_v3/rob_ipc_compute_line.png
+Saved: analysis/plots_v3/rob_ipc_compute_bar.png
+Saved: analysis/plots_v3/rob_ipc_ptrchase_line.png
+Saved: analysis/plots_v3/rob_ipc_ptrchase_bar.png
+Saved: analysis/plots_v3/rob_ipc_stream_line.png
+Saved: analysis/plots_v3/rob_ipc_stream_bar.png
+Saved: analysis/plots_v3/issuewidth_ipc_global_line.png
+Saved: analysis/plots_v3/issuewidth_ipc_global_bar.png
+Saved: analysis/plots_v3/issuewidth_cpi_global_line.png
+Saved: analysis/plots_v3/issuewidth_cpi_global_bar.png
+Saved: analysis/plots_v3/issuewidth_ipc_compute_line.png
+Saved: analysis/plots_v3/issuewidth_ipc_compute_bar.png
+Saved: analysis/plots_v3/issuewidth_ipc_ptrchase_line.png
+Saved: analysis/plots_v3/issuewidth_ipc_ptrchase_bar.png
+Saved: analysis/plots_v3/issuewidth_ipc_stream_line.png
+Saved: analysis/plots_v3/issuewidth_ipc_stream_bar.png
+Saved: analysis/plots_v3/commitwidth_ipc_global_line.png
+Saved: analysis/plots_v3/commitwidth_ipc_global_bar.png
+Saved: analysis/plots_v3/prefetcher_ipc_bp_line.png
+Saved faceted bar: prefetcher_ipc_bp_bar_faceted.png
+Saved: analysis/plots_v3/prefetcher_ipc_line.png
+Saved: memdep_ipc_bar.png
+Saved: analysis/plots_v3/memdep_ipc_line.png
+Saved: analysis/plots_v3/assoc_l1d_hitrate_line.png
+Saved: analysis/plots_v3/assoc_l1d_hitrate_bar.png
+Saved: analysis/plots_v3/l2_hitrate_line.png
+Saved: analysis/plots_v3/l2_hitrate_bar.png

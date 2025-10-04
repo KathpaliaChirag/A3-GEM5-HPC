@@ -1,0 +1,7 @@
+✅ Plots completed.
+Total rows: 4415
+Valid rows (status == ok): 4415
+Output dir: analysis/plots_final
+Diagnostics: analysis/plots_final/diagnostics.txt
+
+Inspect diagnostics.txt for skipped plots reasons.

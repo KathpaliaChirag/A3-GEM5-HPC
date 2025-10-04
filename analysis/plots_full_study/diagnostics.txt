@@ -1,0 +1,24 @@
+✅ Loaded 4415 successful runs
+🔍 Parsed experiment strings for cache, assoc, prefetcher, replacement, memdep
+✅ Saved: analysis/plots_full_study/1_rob_ipc_compute.png
+✅ Saved: analysis/plots_full_study/1_rob_ipc_ptrchase.png
+✅ Saved: analysis/plots_full_study/1_rob_ipc_stream.png
+✅ Saved: analysis/plots_full_study/2_issuewidth_ipc_commitwidth.png
+✅ Saved: analysis/plots_full_study/5_assoc_vs_hitrate.png
+✅ Saved: analysis/plots_full_study/6_l2size_vs_hitrate.png
+✅ Saved: analysis/plots_full_study/7_ipc_vs_l1dmiss.png
+✅ Saved: analysis/plots_full_study/8_corr_heatmap.png
+✅ Saved: analysis/plots_full_study/9_mpki_vs_speedup.png
+✅ Saved: analysis/plots_full_study/10_pareto_ipc_missrate.png
+✅ Full analysis completed.
+Saved ~20 large plots to: analysis/plots_full_study
+
+Highlights:
+- Scaling: ROB, IssueWidth, CommitWidth
+- Branch & Prefetcher interactions
+- Cache associativity and size vs hit rate
+- Memory predictor & performance coupling
+- Correlation & Pareto insights
+
+Figures are 10x7 inches for clarity.
+Check analysis/plots_full_study/diagnostics.txt for log of skipped/missing sections.

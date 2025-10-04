@@ -1,0 +1,41 @@
+Diagnostics
+============================================================
+Loaded 4415 rows, 4415 status==ok
+
+Plot 1 – ROB vs IPC (colored by Issue Width)
+Saved plot: analysis/plots_final/1_rob_ipc_compute.png
+Saved plot: analysis/plots_final/1_rob_ipc_ptrchase.png
+Saved plot: analysis/plots_final/1_rob_ipc_stream.png
+
+Plot 2 – Issue Width scaling (IPC + CPI)
+Saved plot: analysis/plots_final/2_issuewidth_ipc_cpi_commitwidth.png
+
+Plot 3 – L1D size vs Miss Rate (Prefetcher/BP)
+Skipping 3: single L1D value
+
+Plot 4 – L2 size vs Miss Rate (by L1D)
+Saved plot: analysis/plots_final/4_l2_missrate_assoc.png
+
+Plot 5 – Prefetcher Type vs IPC (grouped by BP)
+Skipping 5: no prefetcher info
+
+Plot 6 – Branch Predictor vs IPC/CPI
+Saved plot: analysis/plots_final/6_bp_ipc.png
+Saved plot: analysis/plots_final/6_bp_cpi.png
+
+Plot 7 – Replacement Policy vs IPC (grouped by L2)
+Saved plot: analysis/plots_final/7_replacement_ipc_cache.png
+
+Plot 8 – Failure Rate Heatmap
+Saved plot: analysis/plots_final/8_failure_rate_heatmap.png
+
+Plot 9 – Best IPC per Benchmark
+Saved best-config table: analysis/plots_final/9_best_config_per_benchmark.csv
+
+✅ Plots completed.
+Total rows: 4415
+Valid rows (status == ok): 4415
+Output dir: analysis/plots_final
+Diagnostics: analysis/plots_final/diagnostics.txt
+
+Inspect diagnostics.txt for skipped plots reasons.

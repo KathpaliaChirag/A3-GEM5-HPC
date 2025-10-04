@@ -1,0 +1,3 @@
+compute: IPC=1.364 | exp=compute_rob128_bpTournamentBP_l164kB_l2512kB_iw4_cw4_assoc4_pftagged_rpLRU
+ptrchase: IPC=0.407 | exp=ptrchase_rob64_bpBiModeBP_l164kB_l2512kB_iw4_cw4_assoc2_pftagged_rpLRU
+stream: IPC=0.585 | exp=stream_rob192_bpTournamentBP_l164kB_l2256kB_iw4_cw4_assoc4_pftagged_rpLRU

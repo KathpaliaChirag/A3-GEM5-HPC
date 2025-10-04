@@ -1,0 +1,25 @@
+warn: The se.py script is deprecated. It will be removed in future releases of  gem5.
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 23.1.0.0
+gem5 compiled Sep 30 2025 15:11:21
+gem5 started Oct  2 2025 11:05:27
+gem5 executing on chirag, pid 1000
+command line: /home/chira/gem5/build/X86/gem5.opt /home/chira/gem5/configs/deprecated/example/se.py -c ./benchmarks/stream -o 100000 --cpu-type=DerivO3CPU --caches --l2cache --l1d_size=32kB --l1i_size=32kB --l2_size=256kB -I 50000000
+
+**** REAL SIMULATION ****
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:74: warn: ignoring syscall rseq(...)
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+src/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+done 7.283180
+Exiting @ tick 4686986500 because exiting with last active thread context
